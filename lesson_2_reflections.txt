@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+  Git creates a folder to store metadata about the repository. Initialization
+  must be done because a folder isn't a repository without having that set of
+  metadata.

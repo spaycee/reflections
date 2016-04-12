@@ -1,4 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
   Git creates a folder to store metadata about the repository. Initialization
   must be done because a folder isn't a repository without having that set of
-  metadata.
+  metadata. Whoo!
+
+How can you use the staging area to make sure you have one commit per logical
+ change?
+  Once I make changes to a file or set of files, I can select the files that
+  were part of a logical change and place them in the staging area, then commit
+  them as one.
+
+What are some situations when branches would be helpful in keeping your history
+ organized? How would branches help?
+  When trying out experimental features
+  When troubleshooting a difficult bug that may require a redesign
+  When the codebase is maintained officially by someone else and you want to do
+   something new without having to first get the maintainer's approval
+
+How do the diagrams help you visualize the branch structure?
+  They show how each branch relates to the main branch

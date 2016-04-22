@@ -17,3 +17,8 @@ Describe the differences between forks, clones, and branches. When would you use
    access to. I would clone typically to make a local copy of a repository so I
    can better edit the contents. Branch: when I want to make changes within a
    repository without changing the main stuff.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  In situations where commits are made to the remote copy that are not in the local,
+  that might conflict with local commits that have not been pushed to the remote;
+  one can review the changes made before merging them.

@@ -29,3 +29,10 @@ How would you collaborate without using Git or GitHub? What would be easier,
   manually to see changes, as well as keep old saved versions, assuming we weren't
   using version control of any kind. It would be harder to track changes of course,
   but in the case of Dropbox, my changes would appear automatically.
+
+When would you want to make changes in a separate branch rather than directly in
+ master? What benefits does each approach have?
+  Separate branch: when I am collaborating with others and I need their approval
+  before updating the master
+  When I don't have permission to update master directly
+  Otherwise it would be a lot simpler to update master directly.

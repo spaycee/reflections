@@ -22,3 +22,10 @@ What is the benefit of having a copy of the last known state of the remote store
   In situations where commits are made to the remote copy that are not in the local,
   that might conflict with local commits that have not been pushed to the remote;
   one can review the changes made before merging them.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+ and what would be harder?
+  I could email copies of my changes to my collaborators, then we could do diffs
+  manually to see changes, as well as keep old saved versions, assuming we weren't
+  using version control of any kind. It would be harder to track changes of course,
+  but in the case of Dropbox, my changes would appear automatically.
